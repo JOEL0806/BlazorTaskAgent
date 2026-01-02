@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\download\\Blazor-Ms Agent framework apps\\BlazorTaskAgent\\BlazorTaskAgent.csproj": {}
+    "D:\\download\\BlazorTaskAgent\\BlazorTaskAgent.csproj": {}
   },
   "projects": {
-    "D:\\download\\Blazor-Ms Agent framework apps\\BlazorTaskAgent\\BlazorTaskAgent.csproj": {
+    "D:\\download\\BlazorTaskAgent\\BlazorTaskAgent.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\download\\Blazor-Ms Agent framework apps\\BlazorTaskAgent\\BlazorTaskAgent.csproj",
+        "projectUniqueName": "D:\\download\\BlazorTaskAgent\\BlazorTaskAgent.csproj",
         "projectName": "BlazorTaskAgent",
-        "projectPath": "D:\\download\\Blazor-Ms Agent framework apps\\BlazorTaskAgent\\BlazorTaskAgent.csproj",
+        "projectPath": "D:\\download\\BlazorTaskAgent\\BlazorTaskAgent.csproj",
         "packagesPath": "C:\\Users\\joelm\\.nuget\\packages\\",
-        "outputPath": "D:\\download\\Blazor-Ms Agent framework apps\\BlazorTaskAgent\\obj\\",
+        "outputPath": "D:\\download\\BlazorTaskAgent\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\joelm\\AppData\\Roaming\\NuGet\\NuGet.Config"

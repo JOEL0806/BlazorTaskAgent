@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yFfTMz6/pvU=",
+  "dgSpecHash": "rssoj8772RY=",
   "success": true,
-  "projectFilePath": "D:\\download\\Blazor-Ms Agent framework apps\\BlazorTaskAgent\\BlazorTaskAgent.csproj",
+  "projectFilePath": "D:\\download\\BlazorTaskAgent\\BlazorTaskAgent.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joelm\\.nuget\\packages\\azure.ai.openai\\2.7.0-beta.2\\azure.ai.openai.2.7.0-beta.2.nupkg.sha512",
     "C:\\Users\\joelm\\.nuget\\packages\\azure.core\\1.50.0\\azure.core.1.50.0.nupkg.sha512",
