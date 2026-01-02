@@ -1,0 +1,25 @@
+﻿@page "/"
+@inject TaskPlannerAgent Agent
+
+<h1>Smart Task Planner</h1>
+
+<input @bind="taskInput" placeholder="Enter task description" />
+<br /><br />
+
+<button @onclick="Analyze">Analyze Task</button>
+
+@if (!string.IsNullOrEmpty(result))
+{
+    <p><strong>AI Result:</strong></p>
+    <pre>@result</pre>
+}
+
+@code {
+    string taskInput;
+    string result;
+
+    async Task Analyze()
+    {
+        result = await Agent.AnalyzeTaskAsync(taskInput);
+    }
+}

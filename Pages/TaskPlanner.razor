@@ -1,0 +1,48 @@
+@page "/task-planner"
+@using Microsoft.SemanticKernel
+@inject TaskPlannerAgent PlannerAgent
+
+<h3>🤖 Task Planning Agent</h3>
+
+<div class="row">
+    <div class="col-md-6">
+        <textarea @bind="userTask" class="form-control" rows="4" 
+                  placeholder="Describe your task here..."></textarea>
+        <br />
+        <button class="btn btn-primary" style="margin-top: 10px;" @onclick="AnalyzeTask" disabled="@isThinking">
+            @(isThinking ? "Thinking..." : "Analyze Task")
+        </button>
+    </div>
+</div>
+
+<hr />
+
+@if (!string.IsNullOrEmpty(agentResponse))
+{
+    <div class="alert alert-success">
+        <strong>Agent Plan:</strong>
+        <pre>@agentResponse</pre>
+    </div>
+}
+
+@code {
+    private string userTask = "";
+    private string agentResponse = "";
+    private bool isThinking = false;
+
+    private async Task AnalyzeTask()
+    {
+        if (string.IsNullOrWhiteSpace(userTask)) return;
+
+        isThinking = true;
+        try
+        {
+            agentResponse = await PlannerAgent.AnalyzeTaskAsync(userTask);
+        }
+        catch (Exception ex)
+        {
+            agentResponse = $"Error: {ex.Message}";
+        }
+        isThinking = false;
+    }
+}
