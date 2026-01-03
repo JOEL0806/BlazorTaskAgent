@@ -30,6 +30,8 @@ builder.Services.AddSingleton(sp =>
 // Register our Task Planner Agent
 builder.Services.AddTransient<TaskPlannerAgent>();
 builder.Services.AddSingleton<BlazorTaskAgent.Data.WeatherForecastService>();
+builder.Services.AddSingleton<TaskPlannerAgent>();
+
 
 var app = builder.Build();
 
