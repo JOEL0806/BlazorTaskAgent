@@ -1,28 +1,42 @@
+using System.Threading.Tasks;
+using System;
 using Microsoft.SemanticKernel;
 using Microsoft.SemanticKernel.Agents;
-using System.Threading.Tasks;
+using Microsoft.SemanticKernel.ChatCompletion;
 
-namespace BlazorTaskAgent.Agents
+namespace BlazorTaskAgent.Agents 
 {
     public class TextSummarizerAgent
     {
-        private readonly Kernel _kernel;
+        private readonly ChatCompletionAgent _agent;
 
         public TextSummarizerAgent(Kernel kernel)
         {
-            _kernel = kernel;
+            _agent = new ChatCompletionAgent
+            {
+                Name = "Summarizer",
+                Instructions = "You are a summarization expert. Read the user's text and provide a concise summary.",
+                Kernel = kernel
+            };
         }
 
-        public async Task<string> SummarizeAsync(string text)
+        public async Task<string> SummarizeAsync(string inputText)
         {
-            var prompt = $"""
-            Summarize the following text in simple and clear English:
+            ChatHistory history = new ChatHistory();
+            history.AddUserMessage($"Summarize this text: {inputText}");
 
-            {text}
-            """;
+            var responseMessages = _agent.InvokeAsync(history);
+            string finalResult = "";
 
-            var result = await _kernel.InvokePromptAsync(prompt);
-            return result.GetValue<string>();
+            await foreach (var item in responseMessages)
+            {
+                if (item.Message?.Content != null)
+                {
+                    finalResult += item.Message.Content + "\n";
+                }
+            }
+
+            return finalResult;
         }
     }
 }

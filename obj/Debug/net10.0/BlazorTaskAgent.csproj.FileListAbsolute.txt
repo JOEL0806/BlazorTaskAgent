@@ -138,3 +138,8 @@ D:\download\Blazor-Ms Agent framework apps\BlazorTaskAgent\BlazorTaskAgent\obj\D
 D:\download\Blazor-Ms Agent framework apps\BlazorTaskAgent\BlazorTaskAgent\obj\Debug\net10.0\BlazorTaskAgent.dll
 D:\download\Blazor-Ms Agent framework apps\BlazorTaskAgent\BlazorTaskAgent\obj\Debug\net10.0\refint\BlazorTaskAgent.dll
 D:\download\Blazor-Ms Agent framework apps\BlazorTaskAgent\BlazorTaskAgent\obj\Debug\net10.0\BlazorTaskAgent.pdb
+D:\download\Blazor-Ms Agent framework apps\BlazorTaskAgent\BlazorTaskAgent\bin\Debug\net10.0\BlazorTaskAgent.deps.json
+D:\download\Blazor-Ms Agent framework apps\BlazorTaskAgent\BlazorTaskAgent\bin\Debug\net10.0\BlazorTaskAgent.runtimeconfig.json
+D:\download\Blazor-Ms Agent framework apps\BlazorTaskAgent\BlazorTaskAgent\bin\Debug\net10.0\BlazorTaskAgent.pdb
+D:\download\Blazor-Ms Agent framework apps\BlazorTaskAgent\BlazorTaskAgent\obj\Debug\net10.0\BlazorTaskAgent.genruntimeconfig.cache
+D:\download\Blazor-Ms Agent framework apps\BlazorTaskAgent\BlazorTaskAgent\obj\Debug\net10.0\ref\BlazorTaskAgent.dll

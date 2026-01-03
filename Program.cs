@@ -32,6 +32,7 @@ builder.Services.AddSingleton(sp =>
 builder.Services.AddScoped<TaskPlannerAgent>();
 builder.Services.AddSingleton<BlazorTaskAgent.Data.WeatherForecastService>();
 builder.Services.AddScoped<TextSummarizerAgent>();
+builder.Services.AddTransient<TextSummarizerAgent>();
 
 var app = builder.Build();
 
