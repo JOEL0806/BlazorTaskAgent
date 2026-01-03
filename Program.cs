@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.SemanticKernel;
+using BlazorTaskAgent.Agents;
 using System;
 using System.Net.Http;
 
@@ -28,10 +29,9 @@ builder.Services.AddSingleton(sp =>
 });
 
 // Register our Task Planner Agent
-builder.Services.AddTransient<TaskPlannerAgent>();
+builder.Services.AddScoped<TaskPlannerAgent>();
 builder.Services.AddSingleton<BlazorTaskAgent.Data.WeatherForecastService>();
-builder.Services.AddSingleton<TaskPlannerAgent>();
-
+builder.Services.AddScoped<TextSummarizerAgent>();
 
 var app = builder.Build();
 

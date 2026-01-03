@@ -42,6 +42,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGFza1BsYW5uZXIucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/download/Blazor-Ms Agent framework apps/BlazorTaskAgent/BlazorTaskAgent/Pages/TextSummarizer.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGV4dFN1bW1hcml6ZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/download/Blazor-Ms Agent framework apps/BlazorTaskAgent/BlazorTaskAgent/Pages/TicTacToe.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVGljVGFjVG9lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 

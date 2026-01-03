@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BlazorTaskAgent")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13066e5fb021ea823359e5915e8db2451a7d1372")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f1d0940f90e4a610bfee003d4fb794f3a88bdae5")]
 [assembly: System.Reflection.AssemblyProductAttribute("BlazorTaskAgent")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BlazorTaskAgent")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,33 @@
+@page "/summarizer"
+@using Microsoft.SemanticKernel.Agents
+@using BlazorTaskAgent.Agents
+@inject TextSummarizerAgent Summarizer
+<h3>Text Summarizer</h3>
+
+<textarea class="form-control" rows="6"
+          @bind="InputText"
+          placeholder="Paste your text here..."></textarea>
+
+<br />
+
+<button class="btn btn-primary" @onclick="Summarize">
+    Summarize
+</button>
+
+@if (!string.IsNullOrEmpty(Summary))
+{
+    <hr />
+    <h5>Summary</h5>
+    <p>@Summary</p>
+}
+
+@code {
+    private string InputText;
+    private string Summary;
+
+    private async Task Summarize()
+    {
+        Summary = "Summarizing...";
+        Summary = await Summarizer.SummarizeAsync(InputText);
+    }
+}
