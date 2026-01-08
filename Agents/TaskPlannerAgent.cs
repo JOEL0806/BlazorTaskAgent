@@ -1,42 +1,39 @@
-using System;
-using System.Threading.Tasks; 
-using Microsoft.SemanticKernel;
-using Microsoft.SemanticKernel.Agents;
-using Microsoft.SemanticKernel.ChatCompletion;
+using System.Threading.Tasks;
+using Microsoft.Agents.AI;      // New Framework
+using Microsoft.Extensions.AI;  // For IChatClient
 
-public class TaskPlannerAgent
+// Ensure this namespace matches what you added in _Imports.razor
+namespace BlazorTaskAgent.Agents 
 {
-    private readonly ChatCompletionAgent _agent;
-
-    public TaskPlannerAgent(Kernel kernel)
+    public class TaskPlannerAgent
     {
-        _agent = new ChatCompletionAgent
+        private readonly AIAgent _agent;
+
+        public TaskPlannerAgent(IChatClient chatClient)
         {
-            Name = "TaskPlanner",
-            Instructions = "You are a task planning expert. Analyze tasks, assign priority, and suggest deadlines.",
-            Kernel = kernel
-        };
-    }
-
-    public async Task<string> AnalyzeTaskAsync(string userTask)
-    {
-        ChatHistory history = new ChatHistory();
-        history.AddUserMessage($"Please analyze this task: {userTask}");
-
-        var responseMessages = _agent.InvokeAsync(history);
-
-        string finalResult = "";
-
-        // --- THE FIX ---
-        await foreach (var item in responseMessages)
-        {
-            // Use .Message to get the content, not .Item
-            if (item.Message?.Content != null)
-            {
-                finalResult += item.Message.Content + "\n";
-            }
+            // We use ChatClientAgent (the wrapper for Ollama/OpenAI clients)
+            // Note: Name and Instructions are passed in the constructor now
+            _agent = new ChatClientAgent(
+                chatClient, 
+                "You are a task planning expert. Analyze tasks, assign priority, and suggest deadlines.",
+                "TaskPlanner"
+            );
         }
 
-        return finalResult;
+        public async Task<string> AnalyzeTaskAsync(string userTask)
+        {
+            string finalResult = "";
+
+            // Use RunStreamingAsync to receive the response
+            await foreach (var update in _agent.RunStreamingAsync(userTask))
+            {
+                if (!string.IsNullOrEmpty(update.Text))
+                {
+                    finalResult += update.Text;
+                }
+            }
+
+            return finalResult;
+        }
     }
 }

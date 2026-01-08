@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v10.0": {
       "BlazorTaskAgent/1.0.0": {
         "dependencies": {
+          "Microsoft.Agents.AI": "1.0.0-preview.251219.1",
+          "Microsoft.Extensions.AI.Ollama": "9.7.0-preview.1.25356.2",
           "Microsoft.SemanticKernel": "1.68.0",
           "Microsoft.SemanticKernel.Agents.Core": "1.68.0",
           "Microsoft.SemanticKernel.Connectors.Ollama": "1.68.0-alpha"
@@ -41,12 +43,26 @@
           }
         }
       },
-      "Microsoft.Agents.AI.Abstractions/1.0.0-preview.251009.1": {
+      "Microsoft.Agents.AI/1.0.0-preview.251219.1": {
         "dependencies": {
-          "Microsoft.Extensions.AI.Abstractions": "10.0.1"
+          "Microsoft.Agents.AI.Abstractions": "1.0.0-preview.251219.1",
+          "Microsoft.Extensions.AI": "10.1.1",
+          "Microsoft.Extensions.AI.Abstractions": "10.1.1",
+          "Microsoft.Extensions.VectorData.Abstractions": "9.7.0"
         },
         "runtime": {
-          "lib/net9.0/Microsoft.Agents.AI.Abstractions.dll": {
+          "lib/net10.0/Microsoft.Agents.AI.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Microsoft.Agents.AI.Abstractions/1.0.0-preview.251219.1": {
+        "dependencies": {
+          "Microsoft.Extensions.AI.Abstractions": "10.1.1"
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Agents.AI.Abstractions.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -68,29 +84,40 @@
           }
         }
       },
-      "Microsoft.Extensions.AI/10.0.1": {
+      "Microsoft.Extensions.AI/10.1.1": {
         "dependencies": {
-          "Microsoft.Extensions.AI.Abstractions": "10.0.1",
-          "System.Numerics.Tensors": "10.0.0"
+          "Microsoft.Extensions.AI.Abstractions": "10.1.1",
+          "System.Numerics.Tensors": "10.0.1"
         },
         "runtime": {
           "lib/net10.0/Microsoft.Extensions.AI.dll": {
-            "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.125.57105"
+            "assemblyVersion": "10.1.0.0",
+            "fileVersion": "10.100.125.61202"
           }
         }
       },
-      "Microsoft.Extensions.AI.Abstractions/10.0.1": {
+      "Microsoft.Extensions.AI.Abstractions/10.1.1": {
         "runtime": {
           "lib/net10.0/Microsoft.Extensions.AI.Abstractions.dll": {
-            "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.125.57105"
+            "assemblyVersion": "10.1.0.0",
+            "fileVersion": "10.100.125.61202"
+          }
+        }
+      },
+      "Microsoft.Extensions.AI.Ollama/9.7.0-preview.1.25356.2": {
+        "dependencies": {
+          "Microsoft.Extensions.AI.Abstractions": "10.1.1"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.AI.Ollama.dll": {
+            "assemblyVersion": "9.7.0.0",
+            "fileVersion": "9.700.25.35602"
           }
         }
       },
       "Microsoft.Extensions.AI.OpenAI/10.0.1-preview.1.25571.5": {
         "dependencies": {
-          "Microsoft.Extensions.AI.Abstractions": "10.0.1",
+          "Microsoft.Extensions.AI.Abstractions": "10.1.1",
           "OpenAI": "2.7.0",
           "System.Memory.Data": "10.0.0"
         },
@@ -103,7 +130,7 @@
       },
       "Microsoft.Extensions.VectorData.Abstractions/9.7.0": {
         "dependencies": {
-          "Microsoft.Extensions.AI.Abstractions": "10.0.1"
+          "Microsoft.Extensions.AI.Abstractions": "10.1.1"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.VectorData.Abstractions.dll": {
@@ -127,7 +154,7 @@
       "Microsoft.SemanticKernel.Abstractions/1.68.0": {
         "dependencies": {
           "Microsoft.Bcl.HashCode": "1.1.1",
-          "Microsoft.Extensions.AI": "10.0.1",
+          "Microsoft.Extensions.AI": "10.1.1",
           "Microsoft.Extensions.VectorData.Abstractions": "9.7.0"
         },
         "runtime": {
@@ -139,7 +166,7 @@
       },
       "Microsoft.SemanticKernel.Agents.Abstractions/1.68.0": {
         "dependencies": {
-          "Microsoft.Agents.AI.Abstractions": "1.0.0-preview.251009.1",
+          "Microsoft.Agents.AI.Abstractions": "1.0.0-preview.251219.1",
           "Microsoft.SemanticKernel.Abstractions": "1.68.0"
         },
         "runtime": {
@@ -203,7 +230,7 @@
       "Microsoft.SemanticKernel.Core/1.68.0": {
         "dependencies": {
           "Microsoft.SemanticKernel.Abstractions": "1.68.0",
-          "System.Numerics.Tensors": "10.0.0"
+          "System.Numerics.Tensors": "10.0.1"
         },
         "runtime": {
           "lib/net10.0/Microsoft.SemanticKernel.Core.dll": {
@@ -214,7 +241,7 @@
       },
       "OllamaSharp/5.4.11": {
         "dependencies": {
-          "Microsoft.Extensions.AI.Abstractions": "10.0.1"
+          "Microsoft.Extensions.AI.Abstractions": "10.1.1"
         },
         "runtime": {
           "lib/net10.0/OllamaSharp.dll": {
@@ -253,11 +280,11 @@
           }
         }
       },
-      "System.Numerics.Tensors/10.0.0": {
+      "System.Numerics.Tensors/10.0.1": {
         "runtime": {
           "lib/net10.0/System.Numerics.Tensors.dll": {
-            "assemblyVersion": "10.0.0.0",
-            "fileVersion": "10.0.25.52411"
+            "assemblyVersion": "10.0.0.1",
+            "fileVersion": "10.0.125.57005"
           }
         }
       }
@@ -283,12 +310,19 @@
       "path": "azure.core/1.50.0",
       "hashPath": "azure.core.1.50.0.nupkg.sha512"
     },
-    "Microsoft.Agents.AI.Abstractions/1.0.0-preview.251009.1": {
+    "Microsoft.Agents.AI/1.0.0-preview.251219.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-8Bfppenx9ETyhDsJ30Hixy/zf/t2t/vt03+jl7uLd5XgadZo+xQcEYa16ANHUAcJzBH7ou85sSRO8MohNiFgiw==",
-      "path": "microsoft.agents.ai.abstractions/1.0.0-preview.251009.1",
-      "hashPath": "microsoft.agents.ai.abstractions.1.0.0-preview.251009.1.nupkg.sha512"
+      "sha512": "sha512-VR41foXFo8IhddTtX9DlzhgMYqzPsDh5yktgAz/pAWDeCqkXVFfUbdhiTAQevoBFPl/wSd3xKHjONZLT5CwcYw==",
+      "path": "microsoft.agents.ai/1.0.0-preview.251219.1",
+      "hashPath": "microsoft.agents.ai.1.0.0-preview.251219.1.nupkg.sha512"
+    },
+    "Microsoft.Agents.AI.Abstractions/1.0.0-preview.251219.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-IMBHguYJDhiY1NMCGUk2TDffG4VJ8iGDrPxcjqCQcEBFRwSyEJcJYbmiGlnJxNkp94u22uEOJfJeoq2U+wbS4A==",
+      "path": "microsoft.agents.ai.abstractions/1.0.0-preview.251219.1",
+      "hashPath": "microsoft.agents.ai.abstractions.1.0.0-preview.251219.1.nupkg.sha512"
     },
     "Microsoft.Bcl.AsyncInterfaces/8.0.0": {
       "type": "package",
@@ -304,19 +338,26 @@
       "path": "microsoft.bcl.hashcode/1.1.1",
       "hashPath": "microsoft.bcl.hashcode.1.1.1.nupkg.sha512"
     },
-    "Microsoft.Extensions.AI/10.0.1": {
+    "Microsoft.Extensions.AI/10.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1J4KAyZQsdHt0Dcq5Qsb9l+c5mtZM8F6//VwQse8iIov874aFX1E11UA+Fy/6Krkg2LCw8EtRnobeyADW4slNQ==",
-      "path": "microsoft.extensions.ai/10.0.1",
-      "hashPath": "microsoft.extensions.ai.10.0.1.nupkg.sha512"
+      "sha512": "sha512-hc2OOFz4edXXWOoNLyMaCAdZvyT9vENKSZKqi8q2meDagPr3iMDVXuQlYf0gnCGBIpGvXwx7Aq9feeLMZewh6g==",
+      "path": "microsoft.extensions.ai/10.1.1",
+      "hashPath": "microsoft.extensions.ai.10.1.1.nupkg.sha512"
     },
-    "Microsoft.Extensions.AI.Abstractions/10.0.1": {
+    "Microsoft.Extensions.AI.Abstractions/10.1.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-SR78I0BV7ljDovyVsZQqpt2NezdLoDtoIOCNwqAteuPc8f5PEmvDjokOQxKnTwXo/9RBKnmrzuPzbsuvueZcrg==",
-      "path": "microsoft.extensions.ai.abstractions/10.0.1",
-      "hashPath": "microsoft.extensions.ai.abstractions.10.0.1.nupkg.sha512"
+      "sha512": "sha512-cgj8iHv4JwUpcPANZ0oLILz146Y1Oa+l280b1c1a3DjwZflH9nmYcrX952YUuqftz2sheAC2TPCGcEa6unKQgQ==",
+      "path": "microsoft.extensions.ai.abstractions/10.1.1",
+      "hashPath": "microsoft.extensions.ai.abstractions.10.1.1.nupkg.sha512"
+    },
+    "Microsoft.Extensions.AI.Ollama/9.7.0-preview.1.25356.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ztUJ87zhIXRSL3Bu0Mmy/qH1PfWZDTvIIMz1alPphR6Hi0rUqk2WFiry/y74iYy1sirn9/2YSObVZhYhlPqvWg==",
+      "path": "microsoft.extensions.ai.ollama/9.7.0-preview.1.25356.2",
+      "hashPath": "microsoft.extensions.ai.ollama.9.7.0-preview.1.25356.2.nupkg.sha512"
     },
     "Microsoft.Extensions.AI.OpenAI/10.0.1-preview.1.25571.5": {
       "type": "package",
@@ -416,12 +457,12 @@
       "path": "system.memory.data/10.0.0",
       "hashPath": "system.memory.data.10.0.0.nupkg.sha512"
     },
-    "System.Numerics.Tensors/10.0.0": {
+    "System.Numerics.Tensors/10.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-PxZKFx8ACAt7gRnTSDgtZFA06cimls5XL1Olv63bWF8qKL5+EQdqq3K02etW4LNut4xDoREPe9z7QYATLMkBPA==",
-      "path": "system.numerics.tensors/10.0.0",
-      "hashPath": "system.numerics.tensors.10.0.0.nupkg.sha512"
+      "sha512": "sha512-1ERX7TgHGP8Cs3sHWp0Vk6kg9xVQSgLsumb5qw1KNiClUC5cs4lKZ1LzPHI/ZYY3at7EX2nx4uWU6SGSi2V8Kg==",
+      "path": "system.numerics.tensors/10.0.1",
+      "hashPath": "system.numerics.tensors.10.0.1.nupkg.sha512"
     }
   }
 }

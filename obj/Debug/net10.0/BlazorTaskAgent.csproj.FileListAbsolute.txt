@@ -143,3 +143,5 @@ D:\download\Blazor-Ms Agent framework apps\BlazorTaskAgent\BlazorTaskAgent\bin\D
 D:\download\Blazor-Ms Agent framework apps\BlazorTaskAgent\BlazorTaskAgent\bin\Debug\net10.0\BlazorTaskAgent.pdb
 D:\download\Blazor-Ms Agent framework apps\BlazorTaskAgent\BlazorTaskAgent\obj\Debug\net10.0\BlazorTaskAgent.genruntimeconfig.cache
 D:\download\Blazor-Ms Agent framework apps\BlazorTaskAgent\BlazorTaskAgent\obj\Debug\net10.0\ref\BlazorTaskAgent.dll
+D:\download\Blazor-Ms Agent framework apps\BlazorTaskAgent\BlazorTaskAgent\bin\Debug\net10.0\Microsoft.Agents.AI.dll
+D:\download\Blazor-Ms Agent framework apps\BlazorTaskAgent\BlazorTaskAgent\bin\Debug\net10.0\Microsoft.Extensions.AI.Ollama.dll

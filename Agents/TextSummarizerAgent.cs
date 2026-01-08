@@ -1,38 +1,33 @@
 using System.Threading.Tasks;
-using System;
-using Microsoft.SemanticKernel;
-using Microsoft.SemanticKernel.Agents;
-using Microsoft.SemanticKernel.ChatCompletion;
+using Microsoft.Agents.AI;      // New Agent Framework
+using Microsoft.Extensions.AI;  // For IChatClient
 
-namespace BlazorTaskAgent.Agents 
+namespace BlazorTaskAgent.Agents
 {
     public class TextSummarizerAgent
     {
-        private readonly ChatCompletionAgent _agent;
+        private readonly AIAgent _agent;
 
-        public TextSummarizerAgent(Kernel kernel)
+        // FIX: The constructor must ask for 'IChatClient', NOT 'Kernel'
+        public TextSummarizerAgent(IChatClient chatClient)
         {
-            _agent = new ChatCompletionAgent
-            {
-                Name = "Summarizer",
-                Instructions = "You are a summarization expert. Read the user's text and provide a concise summary.",
-                Kernel = kernel
-            };
+            _agent = new ChatClientAgent(
+                chatClient,
+                "You are a text summarization expert. Summarize the given text concisely into 3-5 bullet points.",
+                "TextSummarizer"
+            );
         }
 
-        public async Task<string> SummarizeAsync(string inputText)
+        public async Task<string> SummarizeAsync(string userText)
         {
-            ChatHistory history = new ChatHistory();
-            history.AddUserMessage($"Summarize this text: {inputText}");
-
-            var responseMessages = _agent.InvokeAsync(history);
             string finalResult = "";
 
-            await foreach (var item in responseMessages)
+            // The new framework uses 'RunStreamingAsync'
+            await foreach (var update in _agent.RunStreamingAsync(userText))
             {
-                if (item.Message?.Content != null)
+                if (!string.IsNullOrEmpty(update.Text))
                 {
-                    finalResult += item.Message.Content + "\n";
+                    finalResult += update.Text;
                 }
             }
 

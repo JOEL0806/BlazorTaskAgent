@@ -37,18 +37,37 @@
           }
         }
       },
-      "Microsoft.Agents.AI.Abstractions/1.0.0-preview.251009.1": {
+      "Microsoft.Agents.AI/1.0.0-preview.251219.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.AI.Abstractions": "9.9.1"
+          "Microsoft.Agents.AI.Abstractions": "1.0.0-preview.251219.1",
+          "Microsoft.Extensions.AI": "10.1.1",
+          "Microsoft.Extensions.AI.Abstractions": "10.1.1",
+          "Microsoft.Extensions.VectorData.Abstractions": "9.7.0"
         },
         "compile": {
-          "lib/net9.0/Microsoft.Agents.AI.Abstractions.dll": {
+          "lib/net10.0/Microsoft.Agents.AI.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net9.0/Microsoft.Agents.AI.Abstractions.dll": {
+          "lib/net10.0/Microsoft.Agents.AI.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Agents.AI.Abstractions/1.0.0-preview.251219.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.AI.Abstractions": "10.1.1"
+        },
+        "compile": {
+          "lib/net10.0/Microsoft.Agents.AI.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/Microsoft.Agents.AI.Abstractions.dll": {
             "related": ".xml"
           }
         }
@@ -87,11 +106,11 @@
           }
         }
       },
-      "Microsoft.Extensions.AI/10.0.1": {
+      "Microsoft.Extensions.AI/10.1.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.AI.Abstractions": "10.0.1",
-          "System.Numerics.Tensors": "10.0.0"
+          "Microsoft.Extensions.AI.Abstractions": "10.1.1",
+          "System.Numerics.Tensors": "10.0.1"
         },
         "compile": {
           "lib/net10.0/Microsoft.Extensions.AI.dll": {
@@ -104,7 +123,7 @@
           }
         }
       },
-      "Microsoft.Extensions.AI.Abstractions/10.0.1": {
+      "Microsoft.Extensions.AI.Abstractions/10.1.1": {
         "type": "package",
         "compile": {
           "lib/net10.0/Microsoft.Extensions.AI.Abstractions.dll": {
@@ -113,6 +132,22 @@
         },
         "runtime": {
           "lib/net10.0/Microsoft.Extensions.AI.Abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.AI.Ollama/9.7.0-preview.1.25356.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.AI.Abstractions": "9.7.0"
+        },
+        "compile": {
+          "lib/net9.0/Microsoft.Extensions.AI.Ollama.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.Extensions.AI.Ollama.dll": {
             "related": ".xml"
           }
         }
@@ -365,7 +400,7 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "System.Numerics.Tensors/10.0.0": {
+      "System.Numerics.Tensors/10.0.1": {
         "type": "package",
         "compile": {
           "lib/net10.0/System.Numerics.Tensors.dll": {
@@ -424,15 +459,40 @@
         "lib/netstandard2.0/Azure.Core.xml"
       ]
     },
-    "Microsoft.Agents.AI.Abstractions/1.0.0-preview.251009.1": {
-      "sha512": "8Bfppenx9ETyhDsJ30Hixy/zf/t2t/vt03+jl7uLd5XgadZo+xQcEYa16ANHUAcJzBH7ou85sSRO8MohNiFgiw==",
+    "Microsoft.Agents.AI/1.0.0-preview.251219.1": {
+      "sha512": "VR41foXFo8IhddTtX9DlzhgMYqzPsDh5yktgAz/pAWDeCqkXVFfUbdhiTAQevoBFPl/wSd3xKHjONZLT5CwcYw==",
       "type": "package",
-      "path": "microsoft.agents.ai.abstractions/1.0.0-preview.251009.1",
+      "path": "microsoft.agents.ai/1.0.0-preview.251219.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "NUGET.md",
         "icon.png",
+        "lib/net10.0/Microsoft.Agents.AI.dll",
+        "lib/net10.0/Microsoft.Agents.AI.xml",
+        "lib/net472/Microsoft.Agents.AI.dll",
+        "lib/net472/Microsoft.Agents.AI.xml",
+        "lib/net8.0/Microsoft.Agents.AI.dll",
+        "lib/net8.0/Microsoft.Agents.AI.xml",
+        "lib/net9.0/Microsoft.Agents.AI.dll",
+        "lib/net9.0/Microsoft.Agents.AI.xml",
+        "lib/netstandard2.0/Microsoft.Agents.AI.dll",
+        "lib/netstandard2.0/Microsoft.Agents.AI.xml",
+        "microsoft.agents.ai.1.0.0-preview.251219.1.nupkg.sha512",
+        "microsoft.agents.ai.nuspec"
+      ]
+    },
+    "Microsoft.Agents.AI.Abstractions/1.0.0-preview.251219.1": {
+      "sha512": "IMBHguYJDhiY1NMCGUk2TDffG4VJ8iGDrPxcjqCQcEBFRwSyEJcJYbmiGlnJxNkp94u22uEOJfJeoq2U+wbS4A==",
+      "type": "package",
+      "path": "microsoft.agents.ai.abstractions/1.0.0-preview.251219.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "NUGET.md",
+        "icon.png",
+        "lib/net10.0/Microsoft.Agents.AI.Abstractions.dll",
+        "lib/net10.0/Microsoft.Agents.AI.Abstractions.xml",
         "lib/net472/Microsoft.Agents.AI.Abstractions.dll",
         "lib/net472/Microsoft.Agents.AI.Abstractions.xml",
         "lib/net8.0/Microsoft.Agents.AI.Abstractions.dll",
@@ -441,7 +501,7 @@
         "lib/net9.0/Microsoft.Agents.AI.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Agents.AI.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Agents.AI.Abstractions.xml",
-        "microsoft.agents.ai.abstractions.1.0.0-preview.251009.1.nupkg.sha512",
+        "microsoft.agents.ai.abstractions.1.0.0-preview.251219.1.nupkg.sha512",
         "microsoft.agents.ai.abstractions.nuspec"
       ]
     },
@@ -520,10 +580,10 @@
         "version.txt"
       ]
     },
-    "Microsoft.Extensions.AI/10.0.1": {
-      "sha512": "1J4KAyZQsdHt0Dcq5Qsb9l+c5mtZM8F6//VwQse8iIov874aFX1E11UA+Fy/6Krkg2LCw8EtRnobeyADW4slNQ==",
+    "Microsoft.Extensions.AI/10.1.1": {
+      "sha512": "hc2OOFz4edXXWOoNLyMaCAdZvyT9vENKSZKqi8q2meDagPr3iMDVXuQlYf0gnCGBIpGvXwx7Aq9feeLMZewh6g==",
       "type": "package",
-      "path": "microsoft.extensions.ai/10.0.1",
+      "path": "microsoft.extensions.ai/10.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -539,14 +599,14 @@
         "lib/net9.0/Microsoft.Extensions.AI.xml",
         "lib/netstandard2.0/Microsoft.Extensions.AI.dll",
         "lib/netstandard2.0/Microsoft.Extensions.AI.xml",
-        "microsoft.extensions.ai.10.0.1.nupkg.sha512",
+        "microsoft.extensions.ai.10.1.1.nupkg.sha512",
         "microsoft.extensions.ai.nuspec"
       ]
     },
-    "Microsoft.Extensions.AI.Abstractions/10.0.1": {
-      "sha512": "SR78I0BV7ljDovyVsZQqpt2NezdLoDtoIOCNwqAteuPc8f5PEmvDjokOQxKnTwXo/9RBKnmrzuPzbsuvueZcrg==",
+    "Microsoft.Extensions.AI.Abstractions/10.1.1": {
+      "sha512": "cgj8iHv4JwUpcPANZ0oLILz146Y1Oa+l280b1c1a3DjwZflH9nmYcrX952YUuqftz2sheAC2TPCGcEa6unKQgQ==",
       "type": "package",
-      "path": "microsoft.extensions.ai.abstractions/10.0.1",
+      "path": "microsoft.extensions.ai.abstractions/10.1.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -562,8 +622,29 @@
         "lib/net9.0/Microsoft.Extensions.AI.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.AI.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.AI.Abstractions.xml",
-        "microsoft.extensions.ai.abstractions.10.0.1.nupkg.sha512",
+        "microsoft.extensions.ai.abstractions.10.1.1.nupkg.sha512",
         "microsoft.extensions.ai.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.AI.Ollama/9.7.0-preview.1.25356.2": {
+      "sha512": "ztUJ87zhIXRSL3Bu0Mmy/qH1PfWZDTvIIMz1alPphR6Hi0rUqk2WFiry/y74iYy1sirn9/2YSObVZhYhlPqvWg==",
+      "type": "package",
+      "path": "microsoft.extensions.ai.ollama/9.7.0-preview.1.25356.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "README.md",
+        "lib/net462/Microsoft.Extensions.AI.Ollama.dll",
+        "lib/net462/Microsoft.Extensions.AI.Ollama.xml",
+        "lib/net8.0/Microsoft.Extensions.AI.Ollama.dll",
+        "lib/net8.0/Microsoft.Extensions.AI.Ollama.xml",
+        "lib/net9.0/Microsoft.Extensions.AI.Ollama.dll",
+        "lib/net9.0/Microsoft.Extensions.AI.Ollama.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.AI.Ollama.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.AI.Ollama.xml",
+        "microsoft.extensions.ai.ollama.9.7.0-preview.1.25356.2.nupkg.sha512",
+        "microsoft.extensions.ai.ollama.nuspec"
       ]
     },
     "Microsoft.Extensions.AI.OpenAI/10.0.1-preview.1.25571.5": {
@@ -1049,10 +1130,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Numerics.Tensors/10.0.0": {
-      "sha512": "PxZKFx8ACAt7gRnTSDgtZFA06cimls5XL1Olv63bWF8qKL5+EQdqq3K02etW4LNut4xDoREPe9z7QYATLMkBPA==",
+    "System.Numerics.Tensors/10.0.1": {
+      "sha512": "1ERX7TgHGP8Cs3sHWp0Vk6kg9xVQSgLsumb5qw1KNiClUC5cs4lKZ1LzPHI/ZYY3at7EX2nx4uWU6SGSi2V8Kg==",
       "type": "package",
-      "path": "system.numerics.tensors/10.0.0",
+      "path": "system.numerics.tensors/10.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1073,7 +1154,7 @@
         "lib/net9.0/System.Numerics.Tensors.xml",
         "lib/netstandard2.0/System.Numerics.Tensors.dll",
         "lib/netstandard2.0/System.Numerics.Tensors.xml",
-        "system.numerics.tensors.10.0.0.nupkg.sha512",
+        "system.numerics.tensors.10.0.1.nupkg.sha512",
         "system.numerics.tensors.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -1081,7 +1162,9 @@
   },
   "projectFileDependencyGroups": {
     "net10.0": [
+      "Microsoft.Agents.AI >= 1.0.0-preview.251219.1",
       "Microsoft.AspNetCore.App.Internal.Assets >= 10.0.1",
+      "Microsoft.Extensions.AI.Ollama >= 9.7.0-preview.1.25356.2",
       "Microsoft.SemanticKernel >= 1.68.0",
       "Microsoft.SemanticKernel.Agents.Core >= 1.68.0",
       "Microsoft.SemanticKernel.Connectors.Ollama >= 1.68.0-alpha"
@@ -1130,11 +1213,19 @@
       "net10.0": {
         "targetAlias": "net10.0",
         "dependencies": {
+          "Microsoft.Agents.AI": {
+            "target": "Package",
+            "version": "[1.0.0-preview.251219.1, )"
+          },
           "Microsoft.AspNetCore.App.Internal.Assets": {
             "suppressParent": "All",
             "target": "Package",
             "version": "[10.0.1, )",
             "autoReferenced": true
+          },
+          "Microsoft.Extensions.AI.Ollama": {
+            "target": "Package",
+            "version": "[9.7.0-preview.1.25356.2, )"
           },
           "Microsoft.SemanticKernel": {
             "target": "Package",
