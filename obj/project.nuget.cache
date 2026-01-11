@@ -1,35 +1,39 @@
 {
   "version": 2,
-  "dgSpecHash": "4CGnOy+G2qw=",
-  "success": true,
+  "dgSpecHash": "YAGuejl4Rxc=",
+  "success": false,
   "projectFilePath": "D:\\download\\Blazor-Ms Agent framework apps\\BlazorTaskAgent\\BlazorTaskAgent\\BlazorTaskAgent.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\joelm\\.nuget\\packages\\azure.ai.openai\\2.7.0-beta.2\\azure.ai.openai.2.7.0-beta.2.nupkg.sha512",
-    "C:\\Users\\joelm\\.nuget\\packages\\azure.core\\1.50.0\\azure.core.1.50.0.nupkg.sha512",
-    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.agents.ai\\1.0.0-preview.251219.1\\microsoft.agents.ai.1.0.0-preview.251219.1.nupkg.sha512",
-    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.agents.ai.abstractions\\1.0.0-preview.251219.1\\microsoft.agents.ai.abstractions.1.0.0-preview.251219.1.nupkg.sha512",
-    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.aspnetcore.app.internal.assets\\10.0.1\\microsoft.aspnetcore.app.internal.assets.10.0.1.nupkg.sha512",
-    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
-    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.1\\microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
-    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.extensions.ai\\10.1.1\\microsoft.extensions.ai.10.1.1.nupkg.sha512",
-    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\10.1.1\\microsoft.extensions.ai.abstractions.10.1.1.nupkg.sha512",
-    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.extensions.ai.ollama\\9.7.0-preview.1.25356.2\\microsoft.extensions.ai.ollama.9.7.0-preview.1.25356.2.nupkg.sha512",
-    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.extensions.ai.openai\\10.0.1-preview.1.25571.5\\microsoft.extensions.ai.openai.10.0.1-preview.1.25571.5.nupkg.sha512",
-    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.extensions.vectordata.abstractions\\9.7.0\\microsoft.extensions.vectordata.abstractions.9.7.0.nupkg.sha512",
-    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.net.compilers.toolset\\4.14.0\\microsoft.net.compilers.toolset.4.14.0.nupkg.sha512",
-    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.semantickernel\\1.68.0\\microsoft.semantickernel.1.68.0.nupkg.sha512",
-    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.semantickernel.abstractions\\1.68.0\\microsoft.semantickernel.abstractions.1.68.0.nupkg.sha512",
-    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.semantickernel.agents.abstractions\\1.68.0\\microsoft.semantickernel.agents.abstractions.1.68.0.nupkg.sha512",
-    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.semantickernel.agents.core\\1.68.0\\microsoft.semantickernel.agents.core.1.68.0.nupkg.sha512",
-    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.semantickernel.connectors.azureopenai\\1.68.0\\microsoft.semantickernel.connectors.azureopenai.1.68.0.nupkg.sha512",
-    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.semantickernel.connectors.ollama\\1.68.0-alpha\\microsoft.semantickernel.connectors.ollama.1.68.0-alpha.nupkg.sha512",
-    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.semantickernel.connectors.openai\\1.68.0\\microsoft.semantickernel.connectors.openai.1.68.0.nupkg.sha512",
-    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.semantickernel.core\\1.68.0\\microsoft.semantickernel.core.1.68.0.nupkg.sha512",
-    "C:\\Users\\joelm\\.nuget\\packages\\ollamasharp\\5.4.11\\ollamasharp.5.4.11.nupkg.sha512",
-    "C:\\Users\\joelm\\.nuget\\packages\\openai\\2.7.0\\openai.2.7.0.nupkg.sha512",
-    "C:\\Users\\joelm\\.nuget\\packages\\system.clientmodel\\1.8.1\\system.clientmodel.1.8.1.nupkg.sha512",
-    "C:\\Users\\joelm\\.nuget\\packages\\system.memory.data\\10.0.0\\system.memory.data.10.0.0.nupkg.sha512",
-    "C:\\Users\\joelm\\.nuget\\packages\\system.numerics.tensors\\10.0.1\\system.numerics.tensors.10.0.1.nupkg.sha512"
+    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.agents.ai\\1.0.0-preview.251001.3\\microsoft.agents.ai.1.0.0-preview.251001.3.nupkg.sha512",
+    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.agents.ai.abstractions\\1.0.0-preview.251001.3\\microsoft.agents.ai.abstractions.1.0.0-preview.251001.3.nupkg.sha512",
+    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.extensions.ai\\9.0.0-preview.9.24556.5\\microsoft.extensions.ai.9.0.0-preview.9.24556.5.nupkg.sha512",
+    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\9.9.1\\microsoft.extensions.ai.abstractions.9.9.1.nupkg.sha512",
+    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.extensions.ai.ollama\\9.0.0-preview.9.24556.5\\microsoft.extensions.ai.ollama.9.0.0-preview.9.24556.5.nupkg.sha512",
+    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\9.0.0\\microsoft.extensions.caching.abstractions.9.0.0.nupkg.sha512",
+    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\9.0.9\\microsoft.extensions.dependencyinjection.abstractions.9.0.9.nupkg.sha512",
+    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\9.0.9\\microsoft.extensions.logging.abstractions.9.0.9.nupkg.sha512",
+    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.0\\microsoft.extensions.primitives.9.0.0.nupkg.sha512",
+    "C:\\Users\\joelm\\.nuget\\packages\\system.diagnostics.diagnosticsource\\9.0.9\\system.diagnostics.diagnosticsource.9.0.9.nupkg.sha512",
+    "C:\\Users\\joelm\\.nuget\\packages\\system.io.pipelines\\9.0.0\\system.io.pipelines.9.0.0.nupkg.sha512",
+    "C:\\Users\\joelm\\.nuget\\packages\\system.net.http.json\\8.0.1\\system.net.http.json.8.0.1.nupkg.sha512",
+    "C:\\Users\\joelm\\.nuget\\packages\\system.text.encodings.web\\9.0.0\\system.text.encodings.web.9.0.0.nupkg.sha512",
+    "C:\\Users\\joelm\\.nuget\\packages\\system.text.json\\9.0.0\\system.text.json.9.0.0.nupkg.sha512",
+    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.22\\microsoft.netcore.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.22\\microsoft.windowsdesktop.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.22\\microsoft.aspnetcore.app.ref.8.0.22.nupkg.sha512",
+    "C:\\Users\\joelm\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.22\\microsoft.netcore.app.host.win-x64.8.0.22.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Error",
+      "message": "Warning As Error: Detected package downgrade: Microsoft.Extensions.AI from 9.9.1 to 9.0.0-preview.9.24556.5. Reference the package directly from the project to select a different version. \r\n BlazorTaskAgent -> Microsoft.Agents.AI 1.0.0-preview.251001.3 -> Microsoft.Extensions.AI (>= 9.9.1) \r\n BlazorTaskAgent -> Microsoft.Extensions.AI (>= 9.0.0-preview.9.24556.5)",
+      "projectPath": "D:\\download\\Blazor-Ms Agent framework apps\\BlazorTaskAgent\\BlazorTaskAgent\\BlazorTaskAgent.csproj",
+      "filePath": "D:\\download\\Blazor-Ms Agent framework apps\\BlazorTaskAgent\\BlazorTaskAgent\\BlazorTaskAgent.csproj",
+      "libraryId": "Microsoft.Extensions.AI",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
