@@ -29,9 +29,6 @@
           }
         },
         "warningProperties": {
-          "noWarn": [
-            "NU5104"
-          ],
           "warnAsError": [
             "NU1605"
           ]
@@ -49,15 +46,23 @@
           "dependencies": {
             "Microsoft.Agents.AI": {
               "target": "Package",
-              "version": "[1.0.0-preview.251001.3, )"
-            },
-            "Microsoft.Extensions.AI": {
-              "target": "Package",
-              "version": "[9.0.0-preview.9.24556.5, )"
+              "version": "[1.0.0-preview.251219.1, )"
             },
             "Microsoft.Extensions.AI.Ollama": {
               "target": "Package",
-              "version": "[9.0.0-preview.9.24556.5, )"
+              "version": "[9.7.0-preview.1.25356.2, )"
+            },
+            "Microsoft.SemanticKernel": {
+              "target": "Package",
+              "version": "[1.68.0, )"
+            },
+            "Microsoft.SemanticKernel.Agents.Core": {
+              "target": "Package",
+              "version": "[1.68.0, )"
+            },
+            "Microsoft.SemanticKernel.Connectors.Ollama": {
+              "target": "Package",
+              "version": "[1.68.0-alpha, )"
             }
           },
           "imports": [

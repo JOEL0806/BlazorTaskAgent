@@ -143,5 +143,81 @@ D:\download\Blazor-Ms Agent framework apps\BlazorTaskAgent\BlazorTaskAgent\bin\D
 D:\download\Blazor-Ms Agent framework apps\BlazorTaskAgent\BlazorTaskAgent\bin\Debug\net10.0\BlazorTaskAgent.pdb
 D:\download\Blazor-Ms Agent framework apps\BlazorTaskAgent\BlazorTaskAgent\obj\Debug\net10.0\BlazorTaskAgent.genruntimeconfig.cache
 D:\download\Blazor-Ms Agent framework apps\BlazorTaskAgent\BlazorTaskAgent\obj\Debug\net10.0\ref\BlazorTaskAgent.dll
+<<<<<<< Updated upstream
 D:\download\Blazor-Ms Agent framework apps\BlazorTaskAgent\BlazorTaskAgent\bin\Debug\net10.0\Microsoft.Agents.AI.dll
 D:\download\Blazor-Ms Agent framework apps\BlazorTaskAgent\BlazorTaskAgent\bin\Debug\net10.0\Microsoft.Extensions.AI.Ollama.dll
+=======
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\appsettings.json
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\BlazorTaskAgent.staticwebassets.runtime.json
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\BlazorTaskAgent.staticwebassets.endpoints.json
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\BlazorTaskAgent.exe
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\BlazorTaskAgent.deps.json
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\BlazorTaskAgent.runtimeconfig.json
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\BlazorTaskAgent.dll
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\BlazorTaskAgent.pdb
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\Azure.AI.OpenAI.dll
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\Azure.Core.dll
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\Microsoft.Agents.AI.Abstractions.dll
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\Microsoft.Bcl.HashCode.dll
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\Microsoft.Extensions.AI.dll
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\Microsoft.Extensions.AI.Abstractions.dll
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\Microsoft.Extensions.AI.OpenAI.dll
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\Microsoft.Extensions.VectorData.Abstractions.dll
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\Microsoft.SemanticKernel.dll
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\Microsoft.SemanticKernel.Abstractions.dll
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\Microsoft.SemanticKernel.Agents.Abstractions.dll
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\Microsoft.SemanticKernel.Agents.Core.dll
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\Microsoft.SemanticKernel.Connectors.AzureOpenAI.dll
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\Microsoft.SemanticKernel.Connectors.Ollama.dll
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\Microsoft.SemanticKernel.Connectors.OpenAI.dll
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\Microsoft.SemanticKernel.Core.dll
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\OllamaSharp.dll
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\OpenAI.dll
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\System.ClientModel.dll
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\System.Memory.Data.dll
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\bin\Debug\net10.0\System.Numerics.Tensors.dll
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\EmbeddedAttribute.cs
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\ValidatableTypeAttribute.cs
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\BlazorTaskAgent.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\BlazorTaskAgent.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\BlazorTaskAgent.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\BlazorTaskAgent.AssemblyInfo.cs
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\BlazorTaskAgent.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\BlazorTaskAgent.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\BlazorTaskAgent.RazorAssemblyInfo.cache
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\BlazorTaskAgent.RazorAssemblyInfo.cs
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\BlazorTaskAgent.sourcelink.json
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\scopedcss\bundle\BlazorTaskAgent.styles.css
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\scopedcss\projectbundle\BlazorTaskAgent.bundle.scp.css
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\compressed\9l5nhw0xjp-{0}-etnb7xlipe-etnb7xlipe.gz
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\compressed\s85gpchvuc-{0}-kao5znno1s-kao5znno1s.gz
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\compressed\k05j5gkrlx-{0}-cmapd0fi15-cmapd0fi15.gz
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\compressed\qkugm8q8oi-{0}-wk8x8xm0ah-wk8x8xm0ah.gz
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\compressed\sckytdkeks-{0}-sjnzgf7e1h-sjnzgf7e1h.gz
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\compressed\hvlg9bzzke-{0}-psxpu4y82n-psxpu4y82n.gz
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\compressed\dz4i3coq7f-{0}-a2u9ewzzoj-a2u9ewzzoj.gz
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\compressed\usdbwg6z5s-{0}-61n19gt1b8-61n19gt1b8.gz
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\compressed\iqfmm5h47n-{0}-wmp8iwak4q-wmp8iwak4q.gz
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\compressed\v1bejns9a6-{0}-2lgipwaf5j-2lgipwaf5j.gz
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\compressed\f9echejt1c-{0}-3fythvigz0-3fythvigz0.gz
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\compressed\yv6dkkhjw2-{0}-3fythvigz0-3fythvigz0.gz
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\BlazorTa.72C08EBE.Up2Date
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\BlazorTaskAgent.dll
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\refint\BlazorTaskAgent.dll
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\BlazorTaskAgent.pdb
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\BlazorTaskAgent.genruntimeconfig.cache
+C:\Users\User\OneDrive\Documents\GitHub\BlazorTaskAgent\obj\Debug\net10.0\ref\BlazorTaskAgent.dll
+>>>>>>> Stashed changes
