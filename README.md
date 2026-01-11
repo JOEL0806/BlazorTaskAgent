@@ -288,7 +288,8 @@ This project addresses:
 
 * Microsoft. (2024). *Semantic Kernel Documentation*.
   [https://learn.microsoft.com/en-us/semantic-kernel/](https://learn.microsoft.com/en-us/semantic-kernel/)
-* Microsoft Agent Framework *
+  
+* Microsoft. (n.d.). *Microsoft Agent Framework overview. Microsoft Learn. *
   [https://learn.microsoft.com/en-us/agent-framework/overview/agent-framework-overview/]
 
 * Ollama. (2024). *Ollama Documentation*.
