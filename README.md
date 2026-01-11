@@ -1,138 +1,203 @@
-Sure! Even though I can’t directly view your project’s **README.md** on GitHub because it requires login, I can help you **write a professional and useful README** for your *BlazorTaskAgent* project. Below is a template you can use — just customize the project description and any details specific to your application.
+Sure 👍 Below is a **ready-to-use README.md** you can **directly paste into your GitHub repository**.
+It is written in a **clear, academic, lecturer-friendly style** and matches your **TPL6213 project requirements**.
 
 ---
 
-# **Blazor Task Agent**
+# **BlazorTaskAgent – C# & Microsoft Agent Framework Sample Application**
 
-A modern task management web application built using **Blazor** — a powerful C#-based frontend framework from Microsoft. This sample application demonstrates key features of Blazor including component-based architecture, routing, and interactive UI using .NET. ([Microsoft][1])
+## **Project Introduction**
 
----
+**BlazorTaskAgent** is a sample web application developed using **C#**, **Blazor Server**, and the **Microsoft Agent (Semantic Kernel) framework**.
+This project is created for the **TPL6213 – Programming Language Concepts** group assignment to demonstrate how modern programming language concepts are applied in a real-world system.
 
-## 🚀 **Project Overview**
+The application showcases:
 
-Blazor Task Agent is a client-centric web application that allows users to:
+* **Agentic AI interaction** using Microsoft Agent framework
+* **Web hosting using Blazor Server**
+* **Event-driven and asynchronous programming**
+* A **Tic-Tac-Toe game** as an interactive sample feature
 
-* Create, edit, and delete tasks
-* Organize tasks into categories or statuses
-* Track task progress in real time
-* Explore a responsive UI built with Blazor components
+Through this project, we demonstrate key programming language concepts such as:
 
-It’s designed as a sample or starter project to help you learn how to build interactive web applications using Blazor and .NET. ([Gist][2])
-
----
-
-## 🧰 **Key Features**
-
-✔️ Blazor component-driven UI
-✔️ Navigation and routing
-✔️ Task list management (CRUD operations)
-✔️ Built with .NET and C#
+* Names and bindings
+* Expressions and assignments
+* Control structures
+* Subprograms (procedures, functions, async methods)
 
 ---
 
-## 📦 **Prerequisites — What You Need to Install**
+## **Project Objectives**
 
-Before you can build and run the Blazor Task Agent application on your machine, make sure you have the following tools installed:
+* To learn and apply **C# programming language concepts**
+* To demonstrate the usage of **Microsoft Agent framework** in a web application
+* To build a **simple, functional, and interactive sample application**
+* To provide clear explanations supported by **real source code**
+* To publish the project as a **web-based research report**
 
-### 1. **.NET SDK**
+---
 
-Download and install the latest stable .NET SDK (version compatible with your project — typically **.NET 8+**).
-Official download: [https://dotnet.microsoft.com/download](https://dotnet.microsoft.com/download) ([Microsoft][3])
+## **System Features**
 
-### 2. **Code Editor / IDE**
+* 🧠 **Task Planner Agent** – analyzes user input using an AI agent
+* 🎮 **Tic-Tac-Toe Game** – interactive game demonstrating event-driven logic
+* 🌐 **Blazor Web Interface** – component-based UI
+* ⚙️ **Asynchronous Processing** – non-blocking UI with `async/await`
 
-Choose one of the following:
+---
 
-* **Visual Studio 2022 or later** (recommended for full Blazor tooling)
-* **Visual Studio Code** + C# extension
-* **JetBrains Rider**
+## **Technologies Used**
 
-### 3. **Blazor Workload**
+* **Programming Language:** C#
+* **Framework:** ASP.NET Core Blazor Server
+* **Agent Framework:** Microsoft Semantic Kernel / Agent Framework
+* **Development Tool:** Microsoft Visual Studio
+* **Runtime:** .NET SDK
 
-If using the .NET CLI, make sure the Blazor templates are installed:
+---
+
+## **Prerequisites (What You Need to Prepare Before Running the Application)**
+
+Before running the sample application, please ensure the following are installed on your system:
+
+### **1. .NET SDK**
+
+* **Minimum version:** .NET SDK 8.0 (or newer if supported)
+* Download:
+  👉 [https://dotnet.microsoft.com/download](https://dotnet.microsoft.com/download)
+
+Verify installation:
 
 ```bash
-dotnet new install Microsoft.AspNetCore.Blazor.Templates
+dotnet --version
 ```
 
-If some workloads are missing, run:
+---
+
+### **2. Microsoft Visual Studio**
+
+* Version **2022 or later**
+* Workloads to install:
+
+  * ✔ ASP.NET and web development
+  * ✔ .NET desktop development
+
+Download:
+👉 [https://visualstudio.microsoft.com/](https://visualstudio.microsoft.com/)
+
+---
+
+### **3. Git (Optional but Recommended)**
+
+Used to clone the repository.
+
+Download:
+👉 [https://git-scm.com/downloads](https://git-scm.com/downloads)
+
+---
+
+### **4. Web Browser**
+
+* Microsoft Edge / Google Chrome (latest version)
+
+---
+
+## **How to Get the Sample Application**
+
+### **Option 1: Clone from GitHub**
 
 ```bash
-dotnet workload restore
+git clone https://github.com/JOEL0806/BlazorTaskAgent.git
+cd BlazorTaskAgent
 ```
 
-(This step ensures things like wasm-tools are installed.) ([Reddit][4])
+### **Option 2: Download ZIP**
+
+1. Click **Code → Download ZIP**
+2. Extract the folder
+3. Open the project in Visual Studio
 
 ---
 
-## 🧭 **Getting Started**
+## **How to Run the Application**
 
-1. **Clone the repository**
+### **Using Command Prompt**
 
-   ```bash
-   git clone https://github.com/JOEL0806/BlazorTaskAgent.git
-   cd BlazorTaskAgent
-   ```
+```bash
+dotnet restore
+dotnet run
+```
 
-2. **Restore dependencies**
-
-   ```bash
-   dotnet restore
-   ```
-
-3. **Run the application**
-
-   ```bash
-   dotnet run
-   ```
-
-4. Once the app builds successfully, open your browser and visit:
-
-   ```
-   https://localhost:5001
-   ```
-
----
-
-## 🛠 **Development Tips**
-
-* Blazor apps are composed of reusable `.razor` components. ([Gist][2])
-* Use the built-in Blazor routing system by defining `@page` directives in your `.razor` files. ([Microsoft][1])
-* If extending the project later, consider separating logic into services to keep components clean.
-
----
-
-## 📍 **Project Structure**
+Then open your browser and go to:
 
 ```
-/BlazorTaskAgent
-├── /Pages
-├── /Shared
-├── /wwwroot
-├── Program.cs
-├── BlazorTaskAgent.csproj
-├── README.md
+http://localhost:5000
+or
+https://localhost:5001
 ```
 
 ---
 
-## 📄 **License**
+### **Using Visual Studio**
 
-Specify the license your project is using here (e.g., MIT, Apache 2.0).
-*(If none yet, consider adding one.)*
-
----
-
-## 🙌 **Contributing**
-
-Want to contribute? Please open an issue or submit a pull request.
-Include clear descriptions and reference any issues you are solving.
+1. Open `BlazorTaskAgent.sln`
+2. Click **Run (▶)** or press `F5`
+3. The browser will open automatically
 
 ---
 
-If you want a version in **Markdown (.md) ready to paste into GitHub**, just let me know — I can format it for you!
+## **Project Structure Overview**
 
-[1]: https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-tutorial/intro?utm_source=chatgpt.com "Blazor tutorial - Build your first web app | .NET"
-[2]: https://gist.github.com/danroth27/cc8290f0b16f34c1e1a478459790b83f?utm_source=chatgpt.com "Blazor · GitHub"
-[3]: https://dotnet.microsoft.com/en-us/learn/aspnet/blazor-tutorial/install?utm_source=chatgpt.com "Blazor tutorial - Build your first web app | .NET"
-[4]: https://www.reddit.com/r/Blazor/comments/17u5gw5?utm_source=chatgpt.com "Error Publishing Blazor WASM .Net 8 App to Azure"
+```
+BlazorTaskAgent/
+│
+├── Agents/                # AI agent logic
+│   └── TaskPlannerAgent.cs
+│
+├── Pages/                 # Blazor pages
+│   ├── Index.razor        # Main agent interface
+│   ├── TicTacToe.razor    # Tic-Tac-Toe game
+│
+├── Shared/
+│   └── NavMenu.razor      # Navigation menu
+│
+├── wwwroot/               # Static assets
+├── Program.cs             # Application entry point
+└── BlazorTaskAgent.csproj
+```
+
+---
+
+## **Educational Purpose**
+
+This project is developed **strictly for educational purposes** as part of the **TPL6213 Programming Language Concepts** course at **Multimedia University (MMU)**.
+All code examples are used to explain programming language concepts and are not intended for commercial deployment.
+
+---
+
+## **References**
+
+* Microsoft. (2024). *C# documentation*.
+  [https://learn.microsoft.com/en-us/dotnet/csharp/](https://learn.microsoft.com/en-us/dotnet/csharp/)
+
+* Microsoft. (2024). *ASP.NET Core Blazor*.
+  [https://learn.microsoft.com/en-us/aspnet/core/blazor/](https://learn.microsoft.com/en-us/aspnet/core/blazor/)
+
+* Microsoft. (2024). *Semantic Kernel Documentation*.
+  [https://learn.microsoft.com/en-us/semantic-kernel/](https://learn.microsoft.com/en-us/semantic-kernel/)
+
+---
+
+## **Contributors**
+
+TPL6213 Group Project
+Multimedia University (MMU)
+
+---
+
+If you want, I can also:
+
+* 📄 Align this README exactly with your **project report**
+* 🧾 Add **installation screenshots**
+* ✍️ Rewrite it in a **more formal academic tone**
+
+Just tell me 👍
