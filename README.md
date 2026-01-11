@@ -2,7 +2,7 @@
 
 ## **Project Introduction**
 
-**BlazorTaskAgent** is a sample web application developed using **C#**, **Blazor Server**, and the **Microsoft Agent (Semantic Kernel) framework**.
+**BlazorTaskAgent** is a sample web application developed using **C#**, **Blazor Server**, and the **Microsoft Agent framework (Microsoft.Agent.AI)**.
 This project is developed for the **TPL6213 – Programming Language Concepts** group assignment to demonstrate how modern programming language concepts are applied in a real-world system.
 
 The application showcases:
@@ -71,7 +71,7 @@ Non-blocking execution using async and await to maintain UI responsiveness durin
 
 * **Programming Language:** C#
 * **Framework:** ASP.NET Core Blazor Server
-* **Agent Framework:** Microsoft Semantic Kernel / Agent Framework
+* **Agent Framework:** Microsoft.Agent.AI Framework
 * **Local AI Runtime:** Ollama
 * **Development Tool:** Microsoft Visual Studio
 * **Runtime:** .NET SDK
@@ -288,6 +288,8 @@ This project addresses:
 
 * Microsoft. (2024). *Semantic Kernel Documentation*.
   [https://learn.microsoft.com/en-us/semantic-kernel/](https://learn.microsoft.com/en-us/semantic-kernel/)
+* Microsoft Agent Framework *
+  [https://learn.microsoft.com/en-us/agent-framework/overview/agent-framework-overview/]
 
 * Ollama. (2024). *Ollama Documentation*.
   [https://ollama.com/](https://ollama.com/)
