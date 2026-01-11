@@ -1,15 +1,3 @@
-Perfect 👍 I’ll **cleanly update the README content** as requested:
-
-✅ **All screenshot placeholders removed**
-✅ **New Ollama AI section added**
-✅ Written in a **lecturer-safe, report-aligned academic tone**
-✅ Clearly explains **why Ollama is needed, how to install it, and how it is used in the project**
-
-Below is the **UPDATED README.md (final version)**.
-You can **replace your existing README entirely** with this.
-
----
-
 # **BlazorTaskAgent – C# & Microsoft Agent Framework Sample Application**
 
 ## **Project Introduction**
