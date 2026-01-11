@@ -34,6 +34,7 @@ Through this project, key programming language concepts are demonstrated, includ
 ## **System Features**
 
 🧠 Task Planner Agent
+
 Processes and analyzes user input using an AI agent powered by the Microsoft Agent framework and Ollama.
 Demonstrates names and bindings, runtime execution, and asynchronous method calls.
 
